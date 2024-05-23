@@ -1,7 +1,7 @@
 import re
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
+from sklearn.feature_extraction._stop_words import ENGLISH_STOP_WORDS
 from sklearn.base import TransformerMixin, BaseEstimator
 
 class SimpleSummaries(TransformerMixin, BaseEstimator):
